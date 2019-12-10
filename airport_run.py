@@ -16,3 +16,8 @@ while True:
         print('You have selected option 1 - Create a Passenger')
         name = input('What is the name of the passenger you would like to create?')
         pass_num = input('What is their passport number?')
+        passenger_created = Passenger(name, pass_num)
+        print(f'Well done you have added, Name: {name.title()}, with the Passport Number:{pass_num}')
+
+    elif option == 2:
+        print('You have selected option 2 - Create a Passenger')
