@@ -18,4 +18,7 @@ class Flight_Trip():
     def add_destination(self, destination_name):
         self.destination = destination_name
 
+    def add_origin(self,origin_name):
+        self.origin = origin_name
+
 

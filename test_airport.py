@@ -23,3 +23,8 @@ def test_flight_destination():
     new_trip = Flight_Trip()
     new_trip.add_destination('London')
     assert new_trip.destination == ('London')
+
+def test_flight_origin():
+    new_trip = Flight_Trip()
+    new_trip.add_origin('LA')
+    assert new_trip.origin == ('LA')
