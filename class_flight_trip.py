@@ -7,13 +7,13 @@
 
 
 class Flight_Trip():
-    def __init__(self): #'self' is an instance of an object
-        self.plane = ''
-        self.destination = ''
-        self.origin = ''
+    def __init__(self, plane, destination, origin): #'self' is an instance of an object
+        self.plane = plane
+        self.destination = destination
+        self.origin = origin
         self.passengers = []
 
-    def add_plane(self, plane_num):
+    def add_plane(self, plane_num ):
         self.plane = plane_num
 
     def add_destination(self, destination_name):
@@ -24,3 +24,6 @@ class Flight_Trip():
 
     def add_passenger(self, passenger):
         self.passengers.append(passenger)
+
+    def get_plane(self):
+        return self.plane
