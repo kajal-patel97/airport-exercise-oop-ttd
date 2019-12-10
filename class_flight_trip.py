@@ -21,4 +21,5 @@ class Flight_Trip():
     def add_origin(self,origin_name):
         self.origin = origin_name
 
-
+    def add_passenger(self, passenger):
+        self.passengers.append(passenger)

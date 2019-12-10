@@ -28,3 +28,9 @@ def test_flight_origin():
     new_trip = Flight_Trip()
     new_trip.add_origin('LA')
     assert new_trip.origin == ('LA')
+
+def test_list_of_passengers():
+    new_trip = Flight_Trip()
+    new_trip.add_passenger('Jerome')
+    assert new_trip.passengers[0] == ('Jerome')
+    assert type(new_trip.passengers) == type([])
