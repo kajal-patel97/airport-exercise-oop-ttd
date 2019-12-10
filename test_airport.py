@@ -44,4 +44,6 @@ def test_missing_info():
         Passenger('Joana')
     with pytest.raises(TypeError):
         Passenger('123')
+    with pytest.raises(TypeError):
+        Plane()
 

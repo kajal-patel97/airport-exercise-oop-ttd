@@ -8,14 +8,6 @@ class Passenger():
         except TypeError as error:
             print('Have you passed through the passengers name and passport number?')
 
-    # def create_passenger(self, name, passport_num):
-    #     self.name = name
-    #     self.passport_num = passport_num
-    #     try:
-    #         self.create_passenger(name, passport_num)
-    #     except TypeError as error:
-    #         print('Have you passed through the passengers name and passport number?')
 
-#
-# passenger1 = Passenger('Dave')
-# print(passenger1)
+
+
