@@ -20,4 +20,4 @@ while True:
         print(f'Well done you have added, Name: {name.title()}, with the Passport Number:{pass_num}')
 
     elif option == 2:
-        print('You have selected option 2 - Create a Passenger')
+        print('You have selected option 2 - Create a New Flight')
