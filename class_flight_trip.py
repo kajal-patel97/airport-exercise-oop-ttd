@@ -6,7 +6,7 @@
 # - Passanger list is a list of objct that are Passanger
 
 class Flight_Trip():
-    def __init__(self):
+    def __init__(self): #'self' is an instance of an object
         self.plane = ''
         self.destination = ''
         self.origin = ''

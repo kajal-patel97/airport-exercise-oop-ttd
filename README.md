@@ -1,10 +1,35 @@
 #This repo is to explore using Unittest and Pytest.
+# TDD and Unit Testing 
+## Unittest and Pytest 
 
-Use TDD to write some tests, then code the airport interface.
+### TDD
+What is it ?
+
+How do you implement it ?
+
+### Unit Testing 
+what is it ? what are the benefits?
+
+- Test Driven Development 
+- Maintainable 
+- Reduces Technical Debt 
+- Know when you are done
+- You have a sense of direction 
+
+### Tools/ Frameworks for Python 
+
+#### Unit Test
+- Unittest comes with python (standard)
+
+#### Pytests
+- Pytests needs to be installed as a package, however it is pretty and clean and tests the same as unittest
+
+
 
 ##Specification for Airport
-This file has the specification for the airport.
+Use TDD to write some tests, then code the airport interface.
 
+This file has the specification for the airport.
 ###Passengers
 - as a user I can create a Passanger
 - It can be created with name and passport number
