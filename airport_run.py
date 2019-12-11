@@ -38,3 +38,6 @@ while True:
         print('You have selected option 3 - List all Flights')
         for flights in flight_list:
             print(flights.plane)
+
+    else:
+        break
