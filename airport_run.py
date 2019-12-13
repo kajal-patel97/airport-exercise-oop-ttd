@@ -3,7 +3,8 @@ from connect_sql import *
 from class_passenger import *
 from class_plane import *
 from class_flight_trip import *
-
+table_passenger = Passenger()
+table_flight = Flight_Trip
 
 while True:
     print('Please select from the following...')
@@ -15,16 +16,14 @@ while True:
 
     if option == '1':
         print('You have selected option 1 - Create a Passenger')
-        create_passenger = Passenger.create_passenger()
-        print(create_passenger)
+        table_passenger.create_passenger()
         print('You have Created a Passenger')
 
 
     elif option == '2':
         print('You have selected option 2 - Add passenger to Flight')
-        passenger = input('What passenger would you like to add to the flight? ')
-        add_passenger_to_flight = flight1.add_passenger(passenger)
-        print(f'You have added {passenger} to {flight1.plane}')
+        table_passenger.add_passenger_to_flight()
+        print('You Have added a passenger to a flight ')
 
     elif option == '3':
         print('You have selected option 3 - List all Flights')
