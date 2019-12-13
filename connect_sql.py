@@ -11,7 +11,7 @@ class MSDBConnection():
 
         #Making the connection
 
-        self.docker_airport_python = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+user_name+';PWD='+ password)
+        self.docker_airport_python = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+self.server+';DATABASE='+self.database+';UID='+self.user_name+';PWD='+ self.password)
 
         #Making a cursor
         self.cursor = self.docker_airport_python.cursor() # creates an object which is a cursor
